@@ -1,4 +1,4 @@
-# dwdwfsapi
+# DWD WFS API
 Python client to retrieve data provided by DWD via their geoserver WFS API
 
 The DWD (Deutscher Wetterdienst) publishes various weather information for Germany.
