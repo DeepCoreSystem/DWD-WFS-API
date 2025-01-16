@@ -5,9 +5,9 @@ The GeoServer is operated by the Deutscher Wetterdienst (DWD).
 https://maps.dwd.de
 """
 
-from typing import Optional, Dict, Any
 import urllib.parse
 import requests
+from typing import Optional, Dict, Any
 
 # Default constants for WFS requests
 DEFAULT_WFS_VERSION = "2.0.0"
