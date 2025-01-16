@@ -4,11 +4,6 @@ Python client to retrieve data provided by DWD via their geoserver WFS API
 The DWD (Deutscher Wetterdienst) publishes various weather information for Germany.
 The data is published via their [Geoserver](https://maps.dwd.de). For a more information have a look [here](https://www.dwd.de/DE/leistungen/geodienste/geodienste.html) and [here](https://maps.dwd.de/geoserver/wfs?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetCapabilities).
 
-## Install
-```
-pip install dwdwfsapi
-```
-
 ## Usage
 The WFS API currently consists of three modules. One for retrieving the current weather warnings, one for retrieving the bio weather forecast and one for retrieving the pollen flight forecast.
 
