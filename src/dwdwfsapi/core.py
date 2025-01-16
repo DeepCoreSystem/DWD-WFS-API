@@ -6,8 +6,9 @@ https://maps.dwd.de
 """
 
 import urllib.parse
+from typing import Any, Dict, Optional
+
 import requests
-from typing import Optional, Dict, Any
 
 # Default constants for WFS requests
 DEFAULT_WFS_VERSION = "2.0.0"
